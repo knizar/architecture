@@ -30,3 +30,4 @@ jobs:
           command: ./gradlew build
       - store_artifacts:
           path: app/build/outputs/apk
+          destination: apk
